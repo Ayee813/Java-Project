@@ -13,7 +13,7 @@ public class Main{
         if (choice.equals(1) || choice.equals("1")) {
             System.out.println("Welcome To Area calculator");
             System.out.println("1. Square");
-            System.out.println("chose what you want to calculate....");
+            System.out.println("chose what shape do you want to calculate....");
             int areaChoice = scan.nextInt(); 
             switch(areaChoice){
                 case 1:
