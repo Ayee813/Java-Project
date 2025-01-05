@@ -17,7 +17,7 @@ public class Main{
             int areaChoice = scan.nextInt(); 
             switch(areaChoice){
                 case 1:
-                SquareCalculator.squuare_Area();
+                AreaCalculator.squuare_Area();
                 break;
                 default:
                 System.out.println("wrong");

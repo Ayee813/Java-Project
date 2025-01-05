@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class SquareCalculator {
+public class AreaCalculator {
     
     public static void squuare_Area() {
         Scanner scan = new Scanner(System.in); 
@@ -13,6 +13,6 @@ public class SquareCalculator {
         System.out.print("PLease enter side distance of your square = ");
         float side = scan.nextFloat();
         double Square = side * side;
-        System.out.println("A = " + side);
+        System.out.println("A = " + Square);
     }
 }
